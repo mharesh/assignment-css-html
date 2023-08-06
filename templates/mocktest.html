@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../MDB-Free_4.20.0/css/bootstrap.css"> 
+    <link rel="stylesheet" href="../MDB-Free_4.20.0/css/mdb.css">
+
+    <link rel="stylesheet" href="{% static 'css/mocktest.css' %}">
+</head>
+
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+             <div class="col-md-6">
+                <p>
+                    Successfully Registered to <b class="brand-size">MoviesWorld</b><br>
+                    Enjoy Unlimited Entertainment....<br>
+                    <button class="btn btn-secondary py-2 px-4" onclick="home()">Home</button>
+                </p>
+                
+             </div>
+        <div class="col-md-3"></div>
+    </div>
+    </div>
+    <script>
+        function home()
+        {
+            document.location.href="MockTest.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body{
+    background-color:black;
+}
+header{
+    background: linear-gradient(green,white);
+    color:black ;
+    padding: 20px;
+
+}
+nav{
+    background: linear-gradient(pink,white);
+    padding: 20px;
+    
+}
+nav>a:hover{
+    background-color:black;
+    color: aliceblue;
+
+}
+#a{
+    text-align: center;
+    
+}
+aside{
+    background: linear-gradient(yellow,white);
+    margin-top: 20px;
+    width: 200px;
+    position: relative;
+    margin-top: -20px;
+    height: 1030px;
+
+
+}
+aside>h1{
+    padding-top: 50px;
+    text-align: center;
+}
+#back{
+    background: linear-gradient(green,white);
+    position: relative;
+    left: 200px;
+    top: -1054px;
+    width:1048px;
+    
+}
+
+section{
+    background: linear-gradient(red,white);
+    position: relative;
+    left: 200px;
+    top: -1080px;
+    width:1048px;
+
+}
+#last{
+    background: linear-gradient(green,red);
+    position: relative;
+    left: 200px;
+    top: -1136px;
+    width:1048px;
+
+}
+h4{
+    background: linear-gradient(green,red);
+    position: relative;
+    left: 199px;
+    top: -1158px;
+    width: 1048px;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+h4>a{
+    padding-left: 40px;
+}
+nav>a{
+    padding-left: 20px;
+    text-decoration: none;
+    
+}

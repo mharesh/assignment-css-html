@@ -1,0 +1,35 @@
+.a{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    border: 3px solid red;
+}
+.l{
+margin-left: 40px;
+}
+.d{
+background-color: chartreuse;
+text-align: center;
+padding: 80px;
+width: fit-content;
+margin-left: 350px;
+border: 5px dotted black;
+
+
+}
+.f{
+background-color: blue;
+padding: 75px;
+border: 5px dashed black;
+}
+.h{
+background-color: cyan;
+padding: 70px;
+border:6px double green;
+
+}
+.g{
+background-color: beige;
+padding: 30px;
+border: 5px solid black;
+}
